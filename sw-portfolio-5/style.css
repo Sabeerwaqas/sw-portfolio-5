@@ -1,0 +1,256 @@
+.carousel-item {
+    height: 110vh;
+    /* margin-top: 10%; */
+}
+
+.navbar {
+    background-color: burlywood;
+    font-size: 20px;
+    font-weight: bold;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    width: 100%;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.child-2-img {
+    height: 75vh;
+    margin-top: 30%;
+}
+
+.name {
+    text-transform: uppercase;
+    color: burlywood;
+    text-align: center;
+    text-shadow: 4px 1px 1px green;
+    margin-top: 5rem;
+}
+
+.name {
+    text-align: center;
+    width: 100%;
+    font-size: 3rem;
+}
+
+.name-child {
+    font-size: 9rem;
+}
+
+small {
+    text-align: center;
+    width: 100%;
+    margin-top: 1%;
+    display: block;
+    font-weight: bold;
+    text-decoration: underline;
+    /* margin-left: 50%; */
+    color: green;
+    font-size: 1rem;
+}
+
+.focus {
+    width: 70%;
+    text-align: center;
+    color: green;
+    margin-top: 1rem;
+    margin-left: 10rem;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.experience {
+    color: burlywood;
+    text-shadow: 4px 1px 1px green;
+    margin-top: 7%;
+    font-size: 4rem;
+    text-transform: uppercase;
+    margin-left: 3%;
+}
+
+.experience-child {
+    font-size: 7rem;
+}
+
+.manager {
+    color: green;
+    font-size: 3rem;
+    margin-left: 3%;
+    text-shadow: 5px 2px 1px burlywood;
+    text-transform: capitalize;
+}
+
+ul {
+    margin-left: 3%;
+}
+
+.juice {
+    font-weight: bold;
+    margin-left: 3%;
+}
+
+.delta {
+    margin-left: 3%;
+}
+
+.skill-name {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 3%;
+}
+
+.A {
+    line-height: 2rem;
+    margin-top: 5%;
+    font-size: 2rem;
+}
+
+#skill {
+    margin-top: 10%;
+}
+
+@media screen and (max-width: 830px) {
+    .focus {
+        width: 50%;
+        text-align: center;
+        color: green;
+        margin-top: 1rem;
+        font-weight: bold;
+        font-size: 20px;
+        text-transform: capitalize;
+        line-height: 3rem;
+    }
+    .child-2-img {
+        height: 75vh;
+        margin-top: 110%;
+    }
+    .experience {
+        color: burlywood;
+        text-shadow: 4px 1px 1px green;
+        margin-top: 7%;
+        font-size: 2rem;
+        text-transform: uppercase;
+        margin-left: 3%;
+    }
+    .manager {
+        color: green;
+        font-size: 2rem;
+        margin-left: 3%;
+        text-shadow: 5px 2px 1px burlywood;
+        text-transform: capitalize;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .name {
+        /* margin-left: 30%; */
+        margin: 0 auto;
+        text-align: center;
+        width: 100%;
+        font-size: 2rem;
+    }
+    .main {
+        display: block;
+        justify-content: space-between;
+    }
+    .focus {
+        margin: 0 auto;
+    }
+    .child-2-img {
+        height: 75vh;
+        /* margin-top: 30%; */
+        margin: 0 auto;
+        margin-left: 15rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .name {
+        /* margin-left: 30%; */
+        margin: 0 auto;
+        text-align: center;
+        width: 100%;
+        font-size: 2rem;
+    }
+    .main {
+        display: block;
+        justify-content: space-between;
+    }
+    .focus {
+        margin: 0 auto;
+    }
+    .child-2-img {
+        height: 75vh;
+        /* margin-top: 30%; */
+        margin: 0 auto;
+        margin-left: 5rem;
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .child-2-img {
+        margin-left: 3rem;
+    }
+    .focus {
+        width: 100%;
+        text-align: center;
+        color: green;
+        margin-top: 1rem;
+        /* margin-left: 10rem; */
+        font-weight: bold;
+        font-size: 15px;
+        text-transform: capitalize;
+        line-height: 3rem;
+    }
+    .experience {
+        color: burlywood;
+        text-shadow: 2px 1px 1px green;
+        margin-top: 7%;
+        font-size: 1rem;
+        text-transform: uppercase;
+        margin-left: 3%;
+    }
+    .manager {
+        color: green;
+        font-size: 1rem;
+        margin-left: 3%;
+        text-shadow: 3px 2px 1px burlywood;
+        text-transform: capitalize;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .main {
+        display: block;
+        justify-content: space-between;
+    }
+    .name {
+        margin: 0 auto;
+        text-align: center;
+        width: 100%;
+        font-size: 3rem;
+    }
+    .focus {
+        width: 60%;
+        text-align: center;
+        color: green;
+        margin-top: 1rem;
+        /* margin-left: 10rem; */
+        font-weight: bold;
+        font-size: 15px;
+        text-transform: capitalize;
+        line-height: 3rem;
+    }
+    .child-2-img {
+        margin: 0 auto;
+        margin-left: 17%;
+    }
+}
